@@ -1,5 +1,11 @@
 #  Fonction pour lister les todos - à réaliser
 
+# Fonction pour créer un todo - à réaliser
+def creer_todo():
+    titre = input("Entrez le titre de la tâche : ")
+    todo = {"titre": titre, "statut": "À faire"}  # Ajout automatique du statut "À faire"
+    print(f"Tâche '{titre}' créée avec le statut '{todo['statut']}'."
+
 def lister_todos():
   print('Fonctionnalité "lister les todos" à venir')
 # Fonction pour créer un todo - à réaliser
